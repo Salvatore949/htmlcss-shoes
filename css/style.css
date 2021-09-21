@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    width: 100%;
+    position: relative;
+    border: 3px solid black;
+}
+
+.red{
+    height: 100vh;
+    background-color: red;
+}
+
+.green{
+    height: 100vh;
+    background-color: green;
+}
+
+.yellow{
+    height: 100vh;
+    background-color: yellow;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
