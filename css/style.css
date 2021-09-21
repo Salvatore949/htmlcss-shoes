@@ -8,36 +8,8 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-#container{
+main{
     width: 100%;
-    position: relative;
-    border: 3px solid black;
-}
-
-.red{
-    height: 100vh;
-    background-color: red;
-}
-
-.green{
-    height: 100vh;
-    background-color: green;
-}
-
-.yellow{
-    height: 100vh;
-    background-color: yellow;
-}
-
-p{
-    text-align: center;
-}
-
-img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
 .clearfix::after{
@@ -45,3 +17,69 @@ img{
     display: table;
     clear: both;
 }
+
+/*1-2-3*/
+
+.right{
+    display:inline-block;
+    float:right;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight:900;
+    margin: 30px 20px 15px;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+/*red container*/
+
+.red{
+    position: relative;
+    height: 100vh;
+    background-color: red;
+    color: yellow;
+}
+
+/*green container*/
+
+.green{
+    position: relative;
+    height: 100vh;
+    background-color: green;
+    color: yellow;
+}
+
+/*yellow container*/
+
+.yellow{
+    position: relative;
+    height: 100vh;
+    background-color: yellow;
+    color: green;
+}
+
+#centered_product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*images*/
+
+img{
+    height: 350px;
+}
+
+/*description paragraph*/
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 12px;
+}
+
+
+
+
